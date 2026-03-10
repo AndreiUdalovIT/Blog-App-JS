@@ -28,4 +28,7 @@ button.addEventListener('click', function () {
     }
     
     post.innerHTML = postHTML
+
+    title.value = '';
+    text.value = '';
 })
