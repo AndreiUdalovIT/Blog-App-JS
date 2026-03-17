@@ -60,11 +60,11 @@ function sendPost() {
 
     for (let i = 0; i < posts.length; i++) {
         postHTML = postHTML + `
-                    <div class="flex__post">    
+                    <li class="flex__post">    
                         <p class="date__post">${posts[i].date}</p>
                         <p class="title__post">${posts[i].title}</p>
                         <p class="text__post">${posts[i].text}</p>
-                    </div>`
+                    </li>`
             
     }
         
